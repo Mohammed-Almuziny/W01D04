@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: green;
+    width: 35%;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+main{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+p {
+    color: gray;
+}
+
+ol {
+    padding: 3rem 2rem;
+}
+
+.line{
+    text-decoration: line-through;
+    background-color: lightgray;
+}
+
+button{
+    padding: 7px 15px;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    border: blue;
+}
+
+.btsGroup {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bts2{
+    background-color: red;
+    border: red;    
+}
+
+.bts3{
+    background-color:green;
+    border: green;
+}
